@@ -1,0 +1,36 @@
+/* Formulario.css */
+
+.turnos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .turnos form {
+    border: 1px solid #000;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: #333; 
+    width: 60%;
+    max-width: 400px;
+  }
+  
+  .turnos .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .turnos .form-group input {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para pantallas más pequeñas (ajusta según sea necesario) */
+  @media (max-width: 600px) {
+    .turnos form {
+      width: 80%;
+    }
+  }
+  
